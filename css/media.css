@@ -1,0 +1,110 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{ 
+	.s-content {
+    margin-top: 7px;
+}
+
+	   .s-img img {
+    display: none;
+}
+.s-content h1 {
+    font-size: 27px;
+ }
+ .s-content h2 {
+    font-size: 18px;
+    margin: 13px 0;
+}
+.s-content p {
+
+    margin-bottom: 23px;
+    font-size: 13px;
+}
+
+
+.menu ul li a {
+    padding: 0 0 !important;
+    text-align: right;
+}
+.cid {
+    bottom: -58px;
+}
+.cid li {
+    width: 9px;
+    height: 9px;
+  
+}
+/*features*/
+.feature {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.c_h1 {
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+.c_p {
+    font-size: 17px;
+}
+
+.s-text {
+    text-align: center;
+}
+.m_t_60 {
+    margin-top: 40px;
+}
+/*contect*/
+.f_submit{
+    margin-top: 20px;
+}
+}
+.contect {
+   
+    padding-top: 47px;
+    padding-bottom: 20px;
+}
+.f_form {
+       margin-bottom: 40px;
+}
+ .f_1{
+   text-align:center;
+   margin-bottom:50px; 
+ }
+ .f-1{
+   text-align:center;
+   margin-bottom:50px; 
+ }
+ footer{
+    padding-bottom: 0;
+ }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .menu ul li a {
+    padding: 0 0 !important;
+    text-align: right;
+    }
+.s-img img {
+    display: none;
+}
+/*features*/
+.feature {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.s-text {
+    text-align: center;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start*/
+.menu ul li a{
+	padding: 0 0 !important;
+	text-align: right; }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)and (max-width: 1199.98px) { ... }
